@@ -23,7 +23,6 @@ def calculate_area_by_base_height(base: float, height: float) -> float:
     
     return 0.5 * base * height
 
-
 def calculate_area_by_three_sides(a: float, b: float, c: float) -> float:
     """
     Calculate triangle area using three sides (Heron's formula).
