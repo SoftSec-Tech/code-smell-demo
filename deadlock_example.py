@@ -54,6 +54,10 @@ def main():
     
     print("This message will never be printed due to deadlock")
 
+def test():
+  v = 10
+  d = 0
+  v / d
 
 if __name__ == "__main__":
     main()
