@@ -5,6 +5,7 @@ def calc(x, y, z):
     # Magic numbers
     result = calculate_area_by_base_height(10, 5)
     print(result)
+    j = 1/0
     
     # No error handling - potential crash
     data = None
