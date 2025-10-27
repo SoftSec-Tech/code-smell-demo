@@ -19,8 +19,6 @@ def thread_function_1():
         
         print("Thread 1: trying to acquire lock2...")
         with lock2:
-            print("Thread 1: acquired lock2")
-            print("Thread 1: completed successfully")
 
 
 def thread_function_2():
@@ -53,10 +51,6 @@ def main():
     t2.join()
     
     print("This message will never be printed due to deadlock")
-
-def test():
-  v = 10
-
 if __name__ == "__main__":
     main()
 
