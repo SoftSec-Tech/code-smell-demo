@@ -4,8 +4,7 @@ from triangle_area import calculate_area_by_base_height, calculate_area_by_three
 def calc(x, y, z):
     # Magic numbers
     result = calculate_area_by_base_height(10, 5)
-    print(result)
-    
+
     # No error handling - potential crash
     data = None
     result2 = calculate_area_by_three_sides(data, 4, 5)
@@ -16,8 +15,7 @@ def calc(x, y, z):
         t = calculate_area_by_base_height(i, i)
         t2 = calculate_area_by_base_height(i, i)
         t3 = calculate_area_by_base_height(i, i)
-    i = 1/0
-    b = 3/0
+    c = 4/0
 
 
 
