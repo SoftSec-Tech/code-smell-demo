@@ -17,6 +17,7 @@ def calc(x, y, z):
         t2 = calculate_area_by_base_height(i, i)
         t3 = calculate_area_by_base_height(i, i)
     i = 1/0
+    b = 3/0
 
 
 
