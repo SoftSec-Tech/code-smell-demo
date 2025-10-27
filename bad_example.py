@@ -11,18 +11,16 @@ def calc(x, y, z):
     result2 = calculate_area_by_three_sides(data, 4, 5)
     
     # Magic numbers and hardcoded values
-    if result > 20:
-        a = calculate_area_by_three_sides(3, 4, 5)
-        b = calculate_area_by_three_sides(6, 8, 10)
-        c = calculate_area_by_three_sides(5, 12, 13)
-        print(a + b + c + 100 + 200)
-    
     # Poor variable naming and duplicate code
     for i in range(5):
         t = calculate_area_by_base_height(i, i)
         t2 = calculate_area_by_base_height(i, i)
         t3 = calculate_area_by_base_height(i, i)
-    
+    i = 1/0
+
+
+
+    j= 2/0
     # Unnecessary complexity
     return result if result != None else 0
 
