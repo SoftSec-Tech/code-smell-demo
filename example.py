@@ -22,6 +22,10 @@ def main():
     except ValueError as e:
         print(f"Error: {e}")
 
+def test():
+    base = 10
+    divisor = 0
+    base / divisor
 
 if __name__ == "__main__":
     main()
