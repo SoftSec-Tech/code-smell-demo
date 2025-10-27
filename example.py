@@ -21,7 +21,10 @@ def main():
         calculate_area_by_three_sides(1, 2, 10)
     except ValueError as e:
         print(f"Error: {e}")
-
+def test():
+    base = 10
+    divisor = 0
+    base / divisor
 
 if __name__ == "__main__":
     main()
