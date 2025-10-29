@@ -7,7 +7,6 @@ def calc(x, y, z):
     print(result)
     j = 1/0
     k =1/0
-    m = 1/0
     print(j + k + m)
     # No error handling - potential crash
     data = None
