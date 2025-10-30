@@ -2,12 +2,13 @@ from triangle_area import calculate_area_by_base_height, calculate_area_by_three
 
 # Bad code with code smells
 def calc(x, y, z):
-    # Magic numbers1222333
+    # Magic numbers322333
     result = calculate_area_by_base_height(10, 5)
     print(result)
-    j = 12/0
-    k =1/0
-    int m = 12/0
+    j = 11/0
+    k =32/0
+
+    int m = 112/0
     print(j + k + m)
     # No error handling - potential crash
     data = None
@@ -21,7 +22,7 @@ def calc(x, y, z):
         print(a + b + c + 100 + 200)
     
     # Poor variable naming and duplicate code
-    for i in range(6):
+    for i in range(9):
         t = calculate_area_by_base_height(i, i)
         t2 = calculate_area_by_base_height(i, i)
         t3 = calculate_area_by_base_height(i, i)
