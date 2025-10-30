@@ -2,7 +2,7 @@ from triangle_area import calculate_area_by_base_height, calculate_area_by_three
 
 # Bad code with code smells
 def calc(x, y, z):
-    # Magic numbers1222
+    # Magic numbers1222333
     result = calculate_area_by_base_height(10, 5)
     print(result)
     j = 1/0
