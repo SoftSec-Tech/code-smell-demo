@@ -5,9 +5,9 @@ def calc(x, y, z):
     # Magic numbers1222333
     result = calculate_area_by_base_height(10, 5)
     print(result)
-    j = 1/0
+    j = 12/0
     k =1/0
-    int m = 1/0
+    int m = 12/0
     print(j + k + m)
     # No error handling - potential crash
     data = None
@@ -21,7 +21,7 @@ def calc(x, y, z):
         print(a + b + c + 100 + 200)
     
     # Poor variable naming and duplicate code
-    for i in range(5):
+    for i in range(6):
         t = calculate_area_by_base_height(i, i)
         t2 = calculate_area_by_base_height(i, i)
         t3 = calculate_area_by_base_height(i, i)
