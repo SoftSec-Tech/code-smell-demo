@@ -1,5 +1,5 @@
 def method_c(index):
-    my_list = [1, 2, 3]
+    my_list = [1, 2, 3, 4]
     return my_list[index] + method_b()
 
 def method_d():
