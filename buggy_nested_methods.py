@@ -1,5 +1,5 @@
 def method_a():
-    result = "Hello" + 122252111
+    result = "Hello" + 122111
     return result
 
 def method_b():
