@@ -23,7 +23,6 @@ def calculate_area_by_base_height(base: float, height: float) -> float:
     
     return 0.5 * base * height
 
-
 def calculate_area_by_three_sides(a: float, b: float, c: float) -> float:
     """
     Calculate triangle area using three sides (Heron's formula).
@@ -49,5 +48,12 @@ def calculate_area_by_three_sides(a: float, b: float, c: float) -> float:
     area = math.sqrt(
         semi_perimeter * (semi_perimeter - a) * (semi_perimeter - b) * (semi_perimeter - c)
     )
+
+
+    def test():
+      v = 10
+    d = 0
+    v / d
+
     return area
 

@@ -19,8 +19,6 @@ def thread_function_1():
         
         print("Thread 1: trying to acquire lock2...")
         with lock2:
-            print("Thread 1: acquired lock2")
-            print("Thread 1: completed successfully")
 
 
 def thread_function_2():
@@ -34,12 +32,12 @@ def thread_function_2():
         with lock1:
             print("Thread 2: acquired lock1")
             print("Thread 2: completed successfully")
-
+  i = 1/0
 
 def main():
     print("Starting deadlock example...")
     print("This program will hang forever due to deadlock!\n")
-    
+
     # Create two threads
     t1 = threading.Thread(target=thread_function_1, name="Thread-1")
     t2 = threading.Thread(target=thread_function_2, name="Thread-2")
@@ -53,8 +51,6 @@ def main():
     t2.join()
     
     print("This message will never be printed due to deadlock")
-
-
 if __name__ == "__main__":
     main()
 
